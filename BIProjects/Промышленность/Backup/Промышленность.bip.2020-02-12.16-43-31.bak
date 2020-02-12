@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContourBIProject version="2.2" caption="Промышленность" create_time="2020-02-12T15:23:05" author="Sibirskaya.EV" modify_time="2020-02-12T16:41:26" code="Промышленность">
+  <Databases unique="11">
+    <Groups/>
+    <Database caption="Dobycha_poleznykh_iskopaemykh" type="Excel" index="1" code="database1">
+      <Groups/>
+      <Tables>
+        <Table caption="Sheet1$" index="1" code="Sheet1$" name="Sheet1$">
+          <Groups/>
+          <Fields>
+            <Field caption="Год" type="Float" index="1" code="Год" name="Год">
+              <Groups/>
+            </Field>
+            <Field caption="Индекс производства по виду экономической деятельности &quot;Добыча п" type="Float" index="2" code="Индекс производства по виду экономической деятельности &quot;Добыча п" name="Индекс производства по виду экономической деятельности &quot;Добыча п">
+              <Groups/>
+            </Field>
+            <Field caption="Субъект РФ" type="String" index="3" code="Субъект РФ" name="Субъект РФ">
+              <Groups/>
+            </Field>
+            <Field caption="Федеральный округ" type="String" index="4" code="Федеральный округ" name="Федеральный округ">
+              <Groups/>
+            </Field>
+          </Fields>
+        </Table>
+      </Tables>
+      <DataSource>Dobycha_poleznykh_iskopaemykh.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Indexy_promyshlennogo_proizvodstva" type="Excel" index="2" code="database2">
+      <Groups/>
+      <Tables>
+        <Table caption="Sheet1$" index="1" code="Sheet1$" name="Sheet1$">
+          <Groups/>
+          <Fields>
+            <Field caption="Агрегированный индекс производства по видам экономической деятел" type="Float" index="1" code="Агрегированный индекс производства по видам экономической деятел" name="Агрегированный индекс производства по видам экономической деятел">
+              <Groups/>
+            </Field>
+            <Field caption="Год" type="Float" index="2" code="Год" name="Год">
+              <Groups/>
+            </Field>
+            <Field caption="Месяц" type="String" index="3" code="Месяц" name="Месяц">
+              <Groups/>
+            </Field>
+            <Field caption="Субъект РФ" type="String" index="4" code="Субъект РФ" name="Субъект РФ">
+              <Groups/>
+            </Field>
+            <Field caption="Федеральный округ" type="String" index="5" code="Федеральный округ" name="Федеральный округ">
+              <Groups/>
+            </Field>
+          </Fields>
+        </Table>
+      </Tables>
+      <DataSource>Indexy_promyshlennogo_proizvodstva.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Osnovnye_pokazateli_po_promyshlennosti" type="Excel" index="3" code="database3">
+      <Groups/>
+      <Tables>
+        <Table caption="Sheet1$" index="1" code="Sheet1$" name="Sheet1$">
+          <Groups/>
+          <Fields>
+            <Field caption="Вид экономической деятельности" type="String" index="1" code="Вид экономической деятельности" name="Вид экономической деятельности">
+              <Groups/>
+            </Field>
+            <Field caption="Год" type="Float" index="2" code="Год" name="Год">
+              <Groups/>
+            </Field>
+            <Field caption="Индексы производства по видам экономической деятельности, в проц" type="Float" index="3" code="Индексы производства по видам экономической деятельности, в проц" name="Индексы производства по видам экономической деятельности, в проц">
+              <Groups/>
+            </Field>
+            <Field caption="Объем отгруженных товаров собственного производства, выполненных" type="Float" index="4" code="Объем отгруженных товаров собственного производства, выполненных" name="Объем отгруженных товаров собственного производства, выполненных">
+              <Groups/>
+            </Field>
+            <Field caption="Производительность труда по видам экономической деятельности, в " type="Float" index="5" code="Производительность труда по видам экономической деятельности, в " name="Производительность труда по видам экономической деятельности, в ">
+              <Groups/>
+            </Field>
+            <Field caption="Рентабельность проданных товаров, продукции (работ, услуг), проц" type="Float" index="6" code="Рентабельность проданных товаров, продукции (работ, услуг), проц" name="Рентабельность проданных товаров, продукции (работ, услуг), проц">
+              <Groups/>
+            </Field>
+            <Field caption="Сальдированный финансовый результат (прибыль минус убыток), млрд" type="Float" index="7" code="Сальдированный финансовый результат (прибыль минус убыток), млрд" name="Сальдированный финансовый результат (прибыль минус убыток), млрд">
+              <Groups/>
+            </Field>
+            <Field caption="Среднегодовая численность работников организаций, тыс# человек" type="Float" index="8" code="Среднегодовая численность работников организаций, тыс# человек" name="Среднегодовая численность работников организаций, тыс# человек">
+              <Groups/>
+            </Field>
+          </Fields>
+        </Table>
+      </Tables>
+      <DataSource>Osnovnye_pokazateli_po_promyshlennosti.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlennost_obem_otgruzhennykh_dannykh_2017-2019" type="Excel" index="4" code="database4">
+      <Groups/>
+      <DataSource>Promyshlennost_obem_otgruzhennykh_dannykh_2017-2019.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlennost_obem_otgruzhennykh_tovarov_2016-2018" type="Excel" index="5" code="database5">
+      <Groups/>
+      <DataSource>Promyshlennost_obem_otgruzhennykh_tovarov_2016-2018.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlennost_Tempy_rosta_promyshlennogo_proizvodstva_2015-2019" type="Excel" index="6" code="database6">
+      <Groups/>
+      <DataSource>Promyshlennost_Tempy_rosta_promyshlennogo_proizvodstva_2015-2019.xls</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlenny_vypusk_Dobyvayuschaya_promyshlennost" type="Excel" index="7" code="database7">
+      <Groups/>
+      <DataSource>Promyshlenny_vypusk_Dobyvayuschaya_promyshlennost.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlenny_vypusk_Elektroenergetika" type="Excel" index="8" code="database8">
+      <Groups/>
+      <DataSource>Promyshlenny_vypusk_Elektroenergetika.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlenny_vypusk_Obrabatyvayuschie_proizv" type="Excel" index="9" code="database9">
+      <Groups/>
+      <DataSource>Promyshlenny_vypusk_Obrabatyvayuschie_proizv.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlenny_vypusk_Vodosnabzhenie" type="Excel" index="10" code="database10">
+      <Groups/>
+      <DataSource>Promyshlenny_vypusk_Vodosnabzhenie.xls</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Zanyatye_v_promyshlennom_sektore" type="Excel" index="11" code="database11">
+      <Groups/>
+      <DataSource>Zanyatye_v_promyshlennom_sektore.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+  </Databases>
+  <Transformations>
+    <Groups/>
+  </Transformations>
+  <Schemas>
+    <Groups/>
+  </Schemas>
+  <Queries unique="10">
+    <Groups/>
+    <Query index="1" code="Sheet1$">
+      <Parameters>
+        <Groups/>
+      </Parameters>
+      <SelectFields>
+        <Groups/>
+        <SelectField index="1" code="Год">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Год</FieldCode>
+        </SelectField>
+        <SelectField index="2" code="Индекс производства по виду экономической деятельности &quot;Добыча п">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Индекс производства по виду экономической деятельности "Добыча п</FieldCode>
+        </SelectField>
+        <SelectField index="3" code="Субъект РФ">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Субъект РФ</FieldCode>
+        </SelectField>
+        <SelectField index="4" code="Федеральный округ">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Федеральный округ</FieldCode>
+        </SelectField>
+      </SelectFields>
+      <Groups/>
+      <SelectedFields>
+        <SelectedField index="1" code="Год">
+          <Groups/>
+          <FieldCode>Год</FieldCode>
+        </SelectedField>
+        <SelectedField index="2" code="Индекс производства по виду экономической деятельности &quot;Добыча п">
+          <Groups/>
+          <FieldCode>Индекс производства по виду экономической деятельности "Добыча п</FieldCode>
+        </SelectedField>
+        <SelectedField index="3" code="Субъект РФ">
+          <Groups/>
+          <FieldCode>Субъект РФ</FieldCode>
+        </SelectedField>
+        <SelectedField index="4" code="Федеральный округ">
+          <Groups/>
+          <FieldCode>Федеральный округ</FieldCode>
+        </SelectedField>
+      </SelectedFields>
+      <Source type="Table">
+        <DatabaseCode>database1</DatabaseCode>
+        <TableCode>Sheet1$</TableCode>
+      </Source>
+    </Query>
+    <Query index="2" code="Sheet1$5">
+      <Parameters>
+        <Groups/>
+      </Parameters>
+      <SelectFields>
+        <Groups/>
+        <SelectField index="1" code="Агрегированный индекс производства по видам экономической деятел">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Агрегированный индекс производства по видам экономической деятел</FieldCode>
+        </SelectField>
+        <SelectField index="2" code="Год">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Год</FieldCode>
+        </SelectField>
+        <SelectField index="3" code="Месяц">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Месяц</FieldCode>
+        </SelectField>
+        <SelectField index="4" code="Субъект РФ">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Субъект РФ</FieldCode>
+        </SelectField>
+        <SelectField index="5" code="Федеральный округ">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Федеральный округ</FieldCode>
+        </SelectField>
+      </SelectFields>
+      <SelectedFields>
+        <SelectedField index="2" code="Год">
+          <Groups/>
+          <FieldCode>Год</FieldCode>
+        </SelectedField>
+        <SelectedField index="3" code="Месяц">
+          <Groups/>
+          <FieldCode>Месяц</FieldCode>
+        </SelectedField>
+        <SelectedField index="4" code="Субъект РФ">
+          <Groups/>
+          <FieldCode>Субъект РФ</FieldCode>
+        </SelectedField>
+        <SelectedField index="5" code="Федеральный округ">
+          <Groups/>
+          <FieldCode>Федеральный округ</FieldCode>
+        </SelectedField>
+        <SelectedField index="1" code="Агрегированный индекс производства по видам экономической деятел">
+          <Groups/>
+          <FieldCode>Агрегированный индекс производства по видам экономической деятел</FieldCode>
+        </SelectedField>
+      </SelectedFields>
+      <Groups/>
+      <Source type="Table">
+        <DatabaseCode>database2</DatabaseCode>
+        <TableCode>Sheet1$</TableCode>
+      </Source>
+    </Query>
+    <Query index="3" code="Sheet1$10">
+      <Parameters>
+        <Groups/>
+      </Parameters>
+      <SelectFields>
+        <Groups/>
+        <SelectField index="1" code="Вид экономической деятельности">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Вид экономической деятельности</FieldCode>
+        </SelectField>
+        <SelectField index="2" code="Год">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Год</FieldCode>
+        </SelectField>
+        <SelectField index="3" code="Индексы производства по видам экономической деятельности, в проц">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Индексы производства по видам экономической деятельности, в проц</FieldCode>
+        </SelectField>
+        <SelectField index="4" code="Объем отгруженных товаров собственного производства, выполненных">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Объем отгруженных товаров собственного производства, выполненных</FieldCode>
+        </SelectField>
+        <SelectField index="5" code="Производительность труда по видам экономической деятельности, в ">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Производительность труда по видам экономической деятельности, в </FieldCode>
+        </SelectField>
+        <SelectField index="6" code="Рентабельность проданных товаров, продукции (работ, услуг), проц">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Рентабельность проданных товаров, продукции (работ, услуг), проц</FieldCode>
+        </SelectField>
+        <SelectField index="7" code="Сальдированный финансовый результат (прибыль минус убыток), млрд">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Сальдированный финансовый результат (прибыль минус убыток), млрд</FieldCode>
+        </SelectField>
+        <SelectField index="8" code="Среднегодовая численность работников организаций, тыс# человек">
+          <Groups/>
+          <TableCode>Sheet1$</TableCode>
+          <FieldCode>Среднегодовая численность работников организаций, тыс# человек</FieldCode>
+        </SelectField>
+      </SelectFields>
+      <Groups/>
+      <SelectedFields>
+        <SelectedField index="1" code="Вид экономической деятельности">
+          <Groups/>
+          <FieldCode>Вид экономической деятельности</FieldCode>
+        </SelectedField>
+        <SelectedField index="2" code="Год">
+          <Groups/>
+          <FieldCode>Год</FieldCode>
+        </SelectedField>
+        <SelectedField index="3" code="Индексы производства по видам экономической деятельности, в проц">
+          <Groups/>
+          <FieldCode>Индексы производства по видам экономической деятельности, в проц</FieldCode>
+        </SelectedField>
+        <SelectedField index="4" code="Объем отгруженных товаров собственного производства, выполненных">
+          <Groups/>
+          <FieldCode>Объем отгруженных товаров собственного производства, выполненных</FieldCode>
+        </SelectedField>
+        <SelectedField index="5" code="Производительность труда по видам экономической деятельности, в ">
+          <Groups/>
+          <FieldCode>Производительность труда по видам экономической деятельности, в </FieldCode>
+        </SelectedField>
+        <SelectedField index="6" code="Рентабельность проданных товаров, продукции (работ, услуг), проц">
+          <Groups/>
+          <FieldCode>Рентабельность проданных товаров, продукции (работ, услуг), проц</FieldCode>
+        </SelectedField>
+        <SelectedField index="7" code="Сальдированный финансовый результат (прибыль минус убыток), млрд">
+          <Groups/>
+          <FieldCode>Сальдированный финансовый результат (прибыль минус убыток), млрд</FieldCode>
+        </SelectedField>
+        <SelectedField index="8" code="Среднегодовая численность работников организаций, тыс# человек">
+          <Groups/>
+          <FieldCode>Среднегодовая численность работников организаций, тыс# человек</FieldCode>
+        </SelectedField>
+      </SelectedFields>
+      <Source type="Table">
+        <DatabaseCode>database3</DatabaseCode>
+        <TableCode>Sheet1$</TableCode>
+      </Source>
+    </Query>
+  </Queries>
+  <Reports unique="2">
+    <Groups/>
+    <Report create_time="2020-02-12T16:30:42" type="OLAP" author="Sibirskaya.EV" index="1" code="Sheet1$" modify_time="2020-02-12T16:34:42">
+      <Cube unique="1">
+        <Slices>
+          <Slice unique="1" index="1" code="slice1">
+            <Views>
+              <View type="grid" index="1" code="view1">
+                <Dimensions>
+                  <Dimension index="1" code="Год">
+                    <Stylesheet>
+                      <DimStylesheet/>
+                      <DimAxisStylesheet/>
+                    </Stylesheet>
+                    <SliceDimCode>Год</SliceDimCode>
+                    <RealWidth>0</RealWidth>
+                    <Width>0</Width>
+                  </Dimension>
+                  <Dimension index="2" code="Субъект РФ">
+                    <Stylesheet>
+                      <DimStylesheet/>
+                      <DimAxisStylesheet/>
+                    </Stylesheet>
+                    <SliceDimCode>Субъект РФ</SliceDimCode>
+                    <RealWidth>0</RealWidth>
+                    <Width>0</Width>
+                  </Dimension>
+                  <Dimension index="3" code="Федеральный округ">
+                    <Stylesheet>
+                      <DimStylesheet/>
+                      <DimAxisStylesheet/>
+                    </Stylesheet>
+                    <SliceDimCode>Федеральный округ</SliceDimCode>
+                    <RealWidth>0</RealWidth>
+                    <Width>0</Width>
+                  </Dimension>
+                  <Groups/>
+                </Dimensions>
+                <Facts>
+                  <Fact index="1" code="Индекс производства по виду экономической деятельности &quot;Добыча п">
+                    <Stylesheet>
+                      <FactStylesheet/>
+                      <FactHeaderStyle/>
+                    </Stylesheet>
+                    <Visible>True</Visible>
+                    <CubeFactCode>Индекс производства по виду экономической деятельности "Добыча п</CubeFactCode>
+                    <RealWidth>1.30208333333333</RealWidth>
+                    <RealSubTotalWidth>0</RealSubTotalWidth>
+                    <RealTotalWidth>0</RealTotalWidth>
+                    <Width>125</Width>
+                  </Fact>
+                  <Groups/>
+                  <RealWidth>1.04166666666667</RealWidth>
+                  <Width>100</Width>
+                </Facts>
+                <Stylesheet>
+                  <DimStylesheet/>
+                  <FactStylesheet/>
+                  <DimAxisStylesheet/>
+                  <WebStyle/>
+                  <GridCaptionStyle/>
+                  <GridStyle/>
+                  <FactFilterStyle/>
+                  <FactHeaderStyle/>
+                </Stylesheet>
+                <Header>
+                  <LinkNewPage>True</LinkNewPage>
+                </Header>
+                <Footer>
+                  <LinkNewPage>True</LinkNewPage>
+                </Footer>
+                <Rows>
+                  <Expanded>1</Expanded>
+                  <TreeMode>True</TreeMode>
+                </Rows>
+                <Columns>
+                  <Expanded>0</Expanded>
+                </Columns>
+                <ShowHeader>False</ShowHeader>
+                <ShowFooter>False</ShowFooter>
+                <TreeStep>16</TreeStep>
+              </View>
+            </Views>
+            <Dimensions>
+              <Groups/>
+              <Dimension index="1" code="Федеральный округ">
+                <Axis>Rows</Axis>
+                <Position>0</Position>
+                <SingleValue>False</SingleValue>
+                <CubeDimCode>Федеральный округ</CubeDimCode>
+                <FilterAction>Filtration</FilterAction>
+                <VisibleValues/>
+              </Dimension>
+              <Dimension index="2" code="Субъект РФ">
+                <Axis>Rows</Axis>
+                <Position>1</Position>
+                <SingleValue>False</SingleValue>
+                <CubeDimCode>Субъект РФ</CubeDimCode>
+                <FilterAction>Filtration</FilterAction>
+                <VisibleValues/>
+              </Dimension>
+              <Dimension index="3" code="Год">
+                <Axis>Columns</Axis>
+                <Position>0</Position>
+                <SingleValue>False</SingleValue>
+                <CubeDimCode>Год</CubeDimCode>
+                <FilterAction>Filtration</FilterAction>
+                <VisibleValues/>
+              </Dimension>
+            </Dimensions>
+            <Groups/>
+            <RootAxis>Columns</RootAxis>
+          </Slice>
+        </Slices>
+        <Dimensions>
+          <Groups/>
+          <Dimension caption="" index="1" code="Год">
+            <Groups/>
+            <Stylesheet>
+              <DimStylesheet/>
+              <DimAxisStylesheet/>
+              <GridCaptionStyle/>
+            </Stylesheet>
+            <FieldName>Год</FieldName>
+            <FieldType>Float</FieldType>
+            <SrcName>Год</SrcName>
+            <PublishSiteMap>False</PublishSiteMap>
+          </Dimension>
+          <Dimension caption="" index="2" code="Субъект РФ">
+            <Groups/>
+            <Stylesheet>
+              <DimStylesheet/>
+              <DimAxisStylesheet/>
+              <GridCaptionStyle/>
+            </Stylesheet>
+            <FieldName>Субъект РФ</FieldName>
+            <FieldType>String</FieldType>
+            <SrcName>Субъект РФ</SrcName>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Dimension>
+          <Dimension caption="" index="3" code="Федеральный округ">
+            <Groups/>
+            <Stylesheet>
+              <DimStylesheet/>
+              <DimAxisStylesheet/>
+              <GridCaptionStyle/>
+            </Stylesheet>
+            <FieldName>Федеральный округ</FieldName>
+            <FieldType>String</FieldType>
+            <SrcName>Федеральный округ</SrcName>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Dimension>
+        </Dimensions>
+        <Facts>
+          <Groups/>
+          <Fact caption="" index="1" code="Индекс производства по виду экономической деятельности &quot;Добыча п" name="Индекс производства по виду экономической деятельности &quot;Добыча п">
+            <DimAggrs>
+              <Groups/>
+            </DimAggrs>
+            <Groups/>
+            <Stylesheet>
+              <FactStylesheet/>
+              <GridCaptionStyle/>
+              <FactHeaderStyle/>
+              <ChartFactStyle/>
+              <ChartFactMarksStyle/>
+              <ChartTargetStyle/>
+            </Stylesheet>
+            <FieldName>Индекс производства по виду экономической деятельности "Добыча п</FieldName>
+            <FieldType>Float</FieldType>
+            <Format># ##0.00</Format>
+            <FieldCode>Индекс производства по виду экономической деятельности "Добыча п</FieldCode>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Fact>
+        </Facts>
+        <Forms>
+          <Groups/>
+        </Forms>
+        <Hierarchies>
+          <Groups/>
+        </Hierarchies>
+        <Parameters>
+          <Groups/>
+        </Parameters>
+        <CalcContext>
+          <Constants>
+            <Groups/>
+          </Constants>
+          <Functions>
+            <Groups/>
+          </Functions>
+        </CalcContext>
+        <Groups/>
+        <Stylesheet>
+          <DimStylesheet/>
+          <FactStylesheet/>
+          <DimAxisStylesheet/>
+          <ContourReportCaptionStyle/>
+          <WebStyle/>
+          <GridCaptionStyle/>
+          <GridStyle/>
+          <FactFilterStyle/>
+          <FactHeaderStyle/>
+          <ChartFactStyle/>
+          <ChartFactMarksStyle/>
+          <ChartTargetStyle/>
+          <BorderStyle/>
+          <ChartPropStyle/>
+          <ChartSubcaptionStyle/>
+          <LegendStyle/>
+          <AxisXStyle/>
+          <AxisYStyle/>
+          <ChartAxisLineXStyle/>
+          <ChartAxisLineYStyle/>
+          <ChartScaleStyle/>
+          <ChartScaleYStyle/>
+          <ChartMarksStyle/>
+          <ChartMarksStylesheet/>
+          <ChartToolTipStyle/>
+          <PlotStyle/>
+          <ChartHorGridStyle/>
+          <ChartVertGridStyle/>
+          <ChartPyramidStyle/>
+          <ChartGaugeStyle/>
+          <ColumnStyle/>
+          <AreaStyle/>
+          <BostonMatrixStyle/>
+          <ChartTextSegmentStyle/>
+          <ChartPieStyle/>
+          <ChartTagCloudStyle/>
+          <CorrelationStyle/>
+          <BubbleStyle>
+            <Scale>100</Scale>
+          </BubbleStyle>
+          <TimeLineStyle/>
+          <CandleStyle/>
+          <SankeyDiagram/>
+          <ImageColumnStyle/>
+          <CardStyle/>
+          <ChartTreemapStylesheet/>
+        </Stylesheet>
+        <Header>
+          <LinkNewPage>True</LinkNewPage>
+        </Header>
+        <Footer>
+          <LinkNewPage>True</LinkNewPage>
+        </Footer>
+      </Cube>
+      <DashboardLayouts>
+        <Groups/>
+      </DashboardLayouts>
+      <LinkedReports>
+        <Groups/>
+      </LinkedReports>
+      <Parameters>
+        <Groups/>
+      </Parameters>
+      <Layouts>
+        <Groups/>
+      </Layouts>
+      <PageSetup>
+        <Headers>
+          <Header>title;</Header>
+          <Header>blank;</Header>
+          <Header>page_of;</Header>
+          <Header>title;</Header>
+          <Header>blank;</Header>
+          <Header>date;</Header>
+        </Headers>
+      </PageSetup>
+      <Templates>
+        <Groups/>
+      </Templates>
+      <UseProjectPrintSetting>True</UseProjectPrintSetting>
+      <PublishSiteMap>False</PublishSiteMap>
+      <QueryCode>Sheet1$</QueryCode>
+      <Category>ROLAP</Category>
+      <ExportLimit>100000</ExportLimit>
+    </Report>
+    <Report create_time="2020-02-12T16:33:35" type="OLAP" author="Sibirskaya.EV" index="2" code="Sheet1$1" modify_time="2020-02-12T16:34:03">
+      <Cube unique="1">
+        <Slices>
+          <Slice unique="1" index="1" code="slice1">
+            <Views>
+              <View type="grid" index="1" code="view1">
+                <Dimensions>
+                  <Dimension index="1" code="Год">
+                    <Stylesheet>
+                      <DimStylesheet/>
+                      <DimAxisStylesheet/>
+                    </Stylesheet>
+                    <SliceDimCode>Год</SliceDimCode>
+                    <RealWidth>0</RealWidth>
+                    <Width>0</Width>
+                  </Dimension>
+                  <Dimension index="2" code="Месяц">
+                    <Stylesheet>
+                      <DimStylesheet/>
+                      <DimAxisStylesheet/>
+                    </Stylesheet>
+                    <SliceDimCode>Месяц</SliceDimCode>
+                    <RealWidth>0</RealWidth>
+                    <Width>0</Width>
+                  </Dimension>
+                  <Dimension index="3" code="Субъект РФ">
+                    <Stylesheet>
+                      <DimStylesheet/>
+                      <DimAxisStylesheet/>
+                    </Stylesheet>
+                    <SliceDimCode>Субъект РФ</SliceDimCode>
+                    <RealWidth>0</RealWidth>
+                    <Width>0</Width>
+                  </Dimension>
+                  <Dimension index="4" code="Федеральный округ">
+                    <Stylesheet>
+                      <DimStylesheet/>
+                      <DimAxisStylesheet/>
+                    </Stylesheet>
+                    <SliceDimCode>Федеральный округ</SliceDimCode>
+                    <RealWidth>0</RealWidth>
+                    <Width>0</Width>
+                  </Dimension>
+                  <Groups/>
+                </Dimensions>
+                <Facts>
+                  <Fact index="1" code="Агрегированный индекс производства по видам экономической деятел">
+                    <Stylesheet>
+                      <FactStylesheet/>
+                      <FactHeaderStyle/>
+                    </Stylesheet>
+                    <Visible>True</Visible>
+                    <CubeFactCode>Агрегированный индекс производства по видам экономической деятел</CubeFactCode>
+                    <RealWidth>1.30208333333333</RealWidth>
+                    <RealSubTotalWidth>0</RealSubTotalWidth>
+                    <RealTotalWidth>0</RealTotalWidth>
+                    <Width>125</Width>
+                  </Fact>
+                  <Groups/>
+                  <RealWidth>1.04166666666667</RealWidth>
+                  <Width>100</Width>
+                </Facts>
+                <Stylesheet>
+                  <DimStylesheet/>
+                  <FactStylesheet/>
+                  <DimAxisStylesheet/>
+                  <WebStyle/>
+                  <GridCaptionStyle/>
+                  <GridStyle/>
+                  <FactFilterStyle/>
+                  <FactHeaderStyle/>
+                </Stylesheet>
+                <Header>
+                  <LinkNewPage>True</LinkNewPage>
+                </Header>
+                <Footer>
+                  <LinkNewPage>True</LinkNewPage>
+                </Footer>
+                <Rows>
+                  <Expanded>1</Expanded>
+                  <TreeMode>True</TreeMode>
+                </Rows>
+                <Columns>
+                  <Expanded>1</Expanded>
+                </Columns>
+                <ShowHeader>False</ShowHeader>
+                <ShowFooter>False</ShowFooter>
+                <TreeStep>16</TreeStep>
+              </View>
+            </Views>
+            <Dimensions>
+              <Groups/>
+              <Dimension index="1" code="Федеральный округ">
+                <Axis>Rows</Axis>
+                <Position>0</Position>
+                <SingleValue>False</SingleValue>
+                <CubeDimCode>Федеральный округ</CubeDimCode>
+                <FilterAction>Filtration</FilterAction>
+                <VisibleValues/>
+              </Dimension>
+              <Dimension index="2" code="Субъект РФ">
+                <Axis>Rows</Axis>
+                <Position>1</Position>
+                <SingleValue>False</SingleValue>
+                <CubeDimCode>Субъект РФ</CubeDimCode>
+                <FilterAction>Filtration</FilterAction>
+                <VisibleValues/>
+              </Dimension>
+              <Dimension index="3" code="Год">
+                <Axis>Columns</Axis>
+                <Position>0</Position>
+                <SingleValue>False</SingleValue>
+                <CubeDimCode>Год</CubeDimCode>
+                <FilterAction>Filtration</FilterAction>
+                <VisibleValues/>
+              </Dimension>
+              <Dimension index="4" code="Месяц">
+                <Axis>Columns</Axis>
+                <Position>1</Position>
+                <SingleValue>False</SingleValue>
+                <CubeDimCode>Месяц</CubeDimCode>
+                <FilterAction>Filtration</FilterAction>
+                <VisibleValues/>
+              </Dimension>
+            </Dimensions>
+            <Groups/>
+            <RootAxis>Columns</RootAxis>
+          </Slice>
+        </Slices>
+        <Dimensions>
+          <Groups/>
+          <Dimension caption="" index="4" code="Федеральный округ">
+            <Groups/>
+            <Stylesheet>
+              <DimStylesheet/>
+              <DimAxisStylesheet/>
+              <GridCaptionStyle/>
+            </Stylesheet>
+            <FieldName>Федеральный округ</FieldName>
+            <FieldType>String</FieldType>
+            <SrcName>Федеральный округ</SrcName>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Dimension>
+          <Dimension caption="" index="3" code="Субъект РФ">
+            <Groups/>
+            <Stylesheet>
+              <DimStylesheet/>
+              <DimAxisStylesheet/>
+              <GridCaptionStyle/>
+            </Stylesheet>
+            <FieldName>Субъект РФ</FieldName>
+            <FieldType>String</FieldType>
+            <SrcName>Субъект РФ</SrcName>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Dimension>
+          <Dimension caption="" index="2" code="Месяц">
+            <Groups/>
+            <Stylesheet>
+              <DimStylesheet/>
+              <DimAxisStylesheet/>
+              <GridCaptionStyle/>
+            </Stylesheet>
+            <FieldName>Месяц</FieldName>
+            <FieldType>String</FieldType>
+            <SrcName>Месяц</SrcName>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Dimension>
+          <Dimension caption="" index="1" code="Год">
+            <Groups/>
+            <Stylesheet>
+              <DimStylesheet/>
+              <DimAxisStylesheet/>
+              <GridCaptionStyle/>
+            </Stylesheet>
+            <FieldName>Год</FieldName>
+            <FieldType>Float</FieldType>
+            <SrcName>Год</SrcName>
+            <PublishSiteMap>False</PublishSiteMap>
+          </Dimension>
+        </Dimensions>
+        <Facts>
+          <Groups/>
+          <Fact caption="" index="1" code="Агрегированный индекс производства по видам экономической деятел" name="Агрегированный индекс производства по видам экономической деятел">
+            <DimAggrs>
+              <Groups/>
+            </DimAggrs>
+            <Groups/>
+            <Stylesheet>
+              <FactStylesheet/>
+              <GridCaptionStyle/>
+              <FactHeaderStyle/>
+              <ChartFactStyle/>
+              <ChartFactMarksStyle/>
+              <ChartTargetStyle/>
+            </Stylesheet>
+            <FieldName>Агрегированный индекс производства по видам экономической деятел</FieldName>
+            <FieldType>Float</FieldType>
+            <Format># ##0.00</Format>
+            <FieldCode>Агрегированный индекс производства по видам экономической деятел</FieldCode>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Fact>
+        </Facts>
+        <Forms>
+          <Groups/>
+        </Forms>
+        <Hierarchies>
+          <Groups/>
+        </Hierarchies>
+        <Parameters>
+          <Groups/>
+        </Parameters>
+        <CalcContext>
+          <Constants>
+            <Groups/>
+          </Constants>
+          <Functions>
+            <Groups/>
+          </Functions>
+        </CalcContext>
+        <Groups/>
+        <Stylesheet>
+          <DimStylesheet/>
+          <FactStylesheet/>
+          <DimAxisStylesheet/>
+          <ContourReportCaptionStyle/>
+          <WebStyle/>
+          <GridCaptionStyle/>
+          <GridStyle/>
+          <FactFilterStyle/>
+          <FactHeaderStyle/>
+          <ChartFactStyle/>
+          <ChartFactMarksStyle/>
+          <ChartTargetStyle/>
+          <BorderStyle/>
+          <ChartPropStyle/>
+          <ChartSubcaptionStyle/>
+          <LegendStyle/>
+          <AxisXStyle/>
+          <AxisYStyle/>
+          <ChartAxisLineXStyle/>
+          <ChartAxisLineYStyle/>
+          <ChartScaleStyle/>
+          <ChartScaleYStyle/>
+          <ChartMarksStyle/>
+          <ChartMarksStylesheet/>
+          <ChartToolTipStyle/>
+          <PlotStyle/>
+          <ChartHorGridStyle/>
+          <ChartVertGridStyle/>
+          <ChartPyramidStyle/>
+          <ChartGaugeStyle/>
+          <ColumnStyle/>
+          <AreaStyle/>
+          <BostonMatrixStyle/>
+          <ChartTextSegmentStyle/>
+          <ChartPieStyle/>
+          <ChartTagCloudStyle/>
+          <CorrelationStyle/>
+          <BubbleStyle>
+            <Scale>100</Scale>
+          </BubbleStyle>
+          <TimeLineStyle/>
+          <CandleStyle/>
+          <SankeyDiagram/>
+          <ImageColumnStyle/>
+          <CardStyle/>
+          <ChartTreemapStylesheet/>
+        </Stylesheet>
+        <Header>
+          <LinkNewPage>True</LinkNewPage>
+        </Header>
+        <Footer>
+          <LinkNewPage>True</LinkNewPage>
+        </Footer>
+      </Cube>
+      <DashboardLayouts>
+        <Groups/>
+      </DashboardLayouts>
+      <LinkedReports>
+        <Groups/>
+      </LinkedReports>
+      <Parameters>
+        <Groups/>
+      </Parameters>
+      <Layouts>
+        <Groups/>
+      </Layouts>
+      <PageSetup>
+        <Headers>
+          <Header>title;</Header>
+          <Header>blank;</Header>
+          <Header>page_of;</Header>
+          <Header>title;</Header>
+          <Header>blank;</Header>
+          <Header>date;</Header>
+        </Headers>
+      </PageSetup>
+      <Templates>
+        <Groups/>
+      </Templates>
+      <UseProjectPrintSetting>True</UseProjectPrintSetting>
+      <PublishSiteMap>False</PublishSiteMap>
+      <QueryCode>Sheet1$5</QueryCode>
+      <Category>ROLAP</Category>
+      <ExportLimit>100000</ExportLimit>
+    </Report>
+    <Report data_time="2020-02-12T16:41:09" create_time="2020-02-12T16:41:01" type="OLAP" author="Sibirskaya.EV" index="3" code="Sheet1$2" modify_time="2020-02-12T16:41:26">
+      <Cube unique="1">
+        <Slices>
+          <Slice unique="1" index="1" code="slice1">
+            <Views>
+              <View type="grid" index="1" code="view1">
+                <Dimensions>
+                  <Groups/>
+                  <Dimension index="1" code="Вид экономической деятельности">
+                    <Stylesheet>
+                      <DimStylesheet/>
+                      <DimAxisStylesheet/>
+                    </Stylesheet>
+                    <SliceDimCode>Вид экономической деятельности</SliceDimCode>
+                    <RealWidth>0</RealWidth>
+                    <Width>0</Width>
+                  </Dimension>
+                  <Dimension index="2" code="Год">
+                    <Stylesheet>
+                      <DimStylesheet/>
+                      <DimAxisStylesheet/>
+                    </Stylesheet>
+                    <SliceDimCode>Год</SliceDimCode>
+                    <RealWidth>0</RealWidth>
+                    <Width>0</Width>
+                  </Dimension>
+                </Dimensions>
+                <Facts>
+                  <Groups/>
+                  <Fact index="1" code="Среднегодовая численность работников организаций, тыс# человек">
+                    <Stylesheet>
+                      <FactStylesheet/>
+                      <FactHeaderStyle/>
+                    </Stylesheet>
+                    <Visible>True</Visible>
+                    <CubeFactCode>Среднегодовая численность работников организаций, тыс# человек</CubeFactCode>
+                    <RealWidth>1.30208333333333</RealWidth>
+                    <RealSubTotalWidth>0</RealSubTotalWidth>
+                    <RealTotalWidth>0</RealTotalWidth>
+                    <Width>125</Width>
+                  </Fact>
+                  <Fact index="2" code="Сальдированный финансовый результат (прибыль минус убыток), млрд">
+                    <Stylesheet>
+                      <FactStylesheet/>
+                      <FactHeaderStyle/>
+                    </Stylesheet>
+                    <Visible>True</Visible>
+                    <CubeFactCode>Сальдированный финансовый результат (прибыль минус убыток), млрд</CubeFactCode>
+                    <RealWidth>1.30208333333333</RealWidth>
+                    <RealSubTotalWidth>0</RealSubTotalWidth>
+                    <RealTotalWidth>0</RealTotalWidth>
+                    <Width>125</Width>
+                  </Fact>
+                  <Fact index="3" code="Рентабельность проданных товаров, продукции (работ, услуг), проц">
+                    <Stylesheet>
+                      <FactStylesheet/>
+                      <FactHeaderStyle/>
+                    </Stylesheet>
+                    <Visible>True</Visible>
+                    <CubeFactCode>Рентабельность проданных товаров, продукции (работ, услуг), проц</CubeFactCode>
+                    <RealWidth>1.30208333333333</RealWidth>
+                    <RealSubTotalWidth>0</RealSubTotalWidth>
+                    <RealTotalWidth>0</RealTotalWidth>
+                    <Width>125</Width>
+                  </Fact>
+                  <Fact index="4" code="Производительность труда по видам экономической деятельности, в ">
+                    <Stylesheet>
+                      <FactStylesheet/>
+                      <FactHeaderStyle/>
+                    </Stylesheet>
+                    <Visible>True</Visible>
+                    <CubeFactCode>Производительность труда по видам экономической деятельности, в </CubeFactCode>
+                    <RealWidth>1.30208333333333</RealWidth>
+                    <RealSubTotalWidth>0</RealSubTotalWidth>
+                    <RealTotalWidth>0</RealTotalWidth>
+                    <Width>125</Width>
+                  </Fact>
+                  <Fact index="5" code="Объем отгруженных товаров собственного производства, выполненных">
+                    <Stylesheet>
+                      <FactStylesheet/>
+                      <FactHeaderStyle/>
+                    </Stylesheet>
+                    <Visible>True</Visible>
+                    <CubeFactCode>Объем отгруженных товаров собственного производства, выполненных</CubeFactCode>
+                    <RealWidth>1.30208333333333</RealWidth>
+                    <RealSubTotalWidth>0</RealSubTotalWidth>
+                    <RealTotalWidth>0</RealTotalWidth>
+                    <Width>125</Width>
+                  </Fact>
+                  <Fact index="6" code="Индексы производства по видам экономической деятельности, в проц">
+                    <Stylesheet>
+                      <FactStylesheet/>
+                      <FactHeaderStyle/>
+                    </Stylesheet>
+                    <Visible>True</Visible>
+                    <CubeFactCode>Индексы производства по видам экономической деятельности, в проц</CubeFactCode>
+                    <RealWidth>1.30208333333333</RealWidth>
+                    <RealSubTotalWidth>0</RealSubTotalWidth>
+                    <RealTotalWidth>0</RealTotalWidth>
+                    <Width>125</Width>
+                  </Fact>
+                  <RealWidth>1.04166666666667</RealWidth>
+                  <Width>100</Width>
+                </Facts>
+                <Stylesheet>
+                  <WebStyle/>
+                  <GridCaptionStyle/>
+                  <GridStyle/>
+                  <FactFilterStyle/>
+                  <DimStylesheet/>
+                  <DimAxisStylesheet/>
+                  <FactStylesheet/>
+                  <FactHeaderStyle/>
+                </Stylesheet>
+                <Header>
+                  <LinkNewPage>True</LinkNewPage>
+                </Header>
+                <Footer>
+                  <LinkNewPage>True</LinkNewPage>
+                </Footer>
+                <Rows>
+                  <Expanded>0</Expanded>
+                  <TreeMode>True</TreeMode>
+                </Rows>
+                <Columns>
+                  <Expanded>0</Expanded>
+                </Columns>
+                <ShowHeader>False</ShowHeader>
+                <ShowFooter>False</ShowFooter>
+                <TreeStep>16</TreeStep>
+              </View>
+            </Views>
+            <Dimensions>
+              <Groups/>
+              <Dimension index="1" code="Вид экономической деятельности">
+                <Axis>Rows</Axis>
+                <Position>0</Position>
+                <SingleValue>False</SingleValue>
+                <CubeDimCode>Вид экономической деятельности</CubeDimCode>
+                <FilterAction>Filtration</FilterAction>
+                <VisibleValues/>
+              </Dimension>
+              <Dimension index="2" code="Год">
+                <Axis>Columns</Axis>
+                <Position>0</Position>
+                <SingleValue>False</SingleValue>
+                <CubeDimCode>Год</CubeDimCode>
+                <FilterAction>Filtration</FilterAction>
+                <VisibleValues/>
+              </Dimension>
+            </Dimensions>
+            <Groups/>
+            <RootAxis>Columns</RootAxis>
+          </Slice>
+        </Slices>
+        <Dimensions>
+          <Groups/>
+          <Dimension caption="" index="1" code="Вид экономической деятельности">
+            <Groups/>
+            <Stylesheet>
+              <GridCaptionStyle/>
+              <DimStylesheet/>
+              <DimAxisStylesheet/>
+            </Stylesheet>
+            <FieldName>Вид экономической деятельности</FieldName>
+            <FieldType>String</FieldType>
+            <SrcName>Вид экономической деятельности</SrcName>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Dimension>
+          <Dimension caption="" index="2" code="Год">
+            <Groups/>
+            <Stylesheet>
+              <GridCaptionStyle/>
+              <DimStylesheet/>
+              <DimAxisStylesheet/>
+            </Stylesheet>
+            <FieldName>Год</FieldName>
+            <FieldType>Float</FieldType>
+            <SrcName>Год</SrcName>
+            <PublishSiteMap>False</PublishSiteMap>
+          </Dimension>
+        </Dimensions>
+        <Facts>
+          <Groups/>
+          <Fact caption="" index="1" code="Среднегодовая численность работников организаций, тыс# человек" name="Среднегодовая численность работников организаций, тыс# человек">
+            <Groups/>
+            <Stylesheet>
+              <GridCaptionStyle/>
+              <FactStylesheet/>
+              <FactHeaderStyle/>
+              <ChartFactStyle/>
+              <ChartFactMarksStyle/>
+              <ChartTargetStyle/>
+            </Stylesheet>
+            <DimAggrs>
+              <Groups/>
+            </DimAggrs>
+            <FieldName>Среднегодовая численность работников организаций, тыс# человек</FieldName>
+            <FieldType>Float</FieldType>
+            <Format># ##0.00</Format>
+            <FieldCode>Среднегодовая численность работников организаций, тыс# человек</FieldCode>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Fact>
+          <Fact caption="" index="2" code="Сальдированный финансовый результат (прибыль минус убыток), млрд" name="Сальдированный финансовый результат (прибыль минус убыток), млрд">
+            <Groups/>
+            <Stylesheet>
+              <GridCaptionStyle/>
+              <FactStylesheet/>
+              <FactHeaderStyle/>
+              <ChartFactStyle/>
+              <ChartFactMarksStyle/>
+              <ChartTargetStyle/>
+            </Stylesheet>
+            <DimAggrs>
+              <Groups/>
+            </DimAggrs>
+            <FieldName>Сальдированный финансовый результат (прибыль минус убыток), млрд</FieldName>
+            <FieldType>Float</FieldType>
+            <Format># ##0.00</Format>
+            <FieldCode>Сальдированный финансовый результат (прибыль минус убыток), млрд</FieldCode>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Fact>
+          <Fact caption="" index="3" code="Рентабельность проданных товаров, продукции (работ, услуг), проц" name="Рентабельность проданных товаров, продукции (работ, услуг), проц">
+            <Groups/>
+            <Stylesheet>
+              <GridCaptionStyle/>
+              <FactStylesheet/>
+              <FactHeaderStyle/>
+              <ChartFactStyle/>
+              <ChartFactMarksStyle/>
+              <ChartTargetStyle/>
+            </Stylesheet>
+            <DimAggrs>
+              <Groups/>
+            </DimAggrs>
+            <FieldName>Рентабельность проданных товаров, продукции (работ, услуг), проц</FieldName>
+            <FieldType>Float</FieldType>
+            <Format># ##0.00</Format>
+            <FieldCode>Рентабельность проданных товаров, продукции (работ, услуг), проц</FieldCode>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Fact>
+          <Fact caption="" index="4" code="Производительность труда по видам экономической деятельности, в " name="Производительность труда по видам экономической деятельности, в ">
+            <Groups/>
+            <Stylesheet>
+              <GridCaptionStyle/>
+              <FactStylesheet/>
+              <FactHeaderStyle/>
+              <ChartFactStyle/>
+              <ChartFactMarksStyle/>
+              <ChartTargetStyle/>
+            </Stylesheet>
+            <DimAggrs>
+              <Groups/>
+            </DimAggrs>
+            <FieldName>Производительность труда по видам экономической деятельности, в </FieldName>
+            <FieldType>Float</FieldType>
+            <Format># ##0.00</Format>
+            <FieldCode>Производительность труда по видам экономической деятельности, в </FieldCode>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Fact>
+          <Fact caption="" index="5" code="Объем отгруженных товаров собственного производства, выполненных" name="Объем отгруженных товаров собственного производства, выполненных">
+            <Groups/>
+            <Stylesheet>
+              <GridCaptionStyle/>
+              <FactStylesheet/>
+              <FactHeaderStyle/>
+              <ChartFactStyle/>
+              <ChartFactMarksStyle/>
+              <ChartTargetStyle/>
+            </Stylesheet>
+            <DimAggrs>
+              <Groups/>
+            </DimAggrs>
+            <FieldName>Объем отгруженных товаров собственного производства, выполненных</FieldName>
+            <FieldType>Float</FieldType>
+            <Format># ##0.00</Format>
+            <FieldCode>Объем отгруженных товаров собственного производства, выполненных</FieldCode>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Fact>
+          <Fact caption="" index="6" code="Индексы производства по видам экономической деятельности, в проц" name="Индексы производства по видам экономической деятельности, в проц">
+            <Groups/>
+            <Stylesheet>
+              <GridCaptionStyle/>
+              <FactStylesheet/>
+              <FactHeaderStyle/>
+              <ChartFactStyle/>
+              <ChartFactMarksStyle/>
+              <ChartTargetStyle/>
+            </Stylesheet>
+            <DimAggrs>
+              <Groups/>
+            </DimAggrs>
+            <FieldName>Индексы производства по видам экономической деятельности, в проц</FieldName>
+            <FieldType>Float</FieldType>
+            <Format># ##0.00</Format>
+            <FieldCode>Индексы производства по видам экономической деятельности, в проц</FieldCode>
+            <PublishSiteMap>True</PublishSiteMap>
+          </Fact>
+        </Facts>
+        <Forms>
+          <Groups/>
+        </Forms>
+        <Hierarchies>
+          <Groups/>
+        </Hierarchies>
+        <Parameters>
+          <Groups/>
+        </Parameters>
+        <Groups/>
+        <CalcContext>
+          <Constants>
+            <Groups/>
+          </Constants>
+          <Functions>
+            <Groups/>
+          </Functions>
+        </CalcContext>
+        <Header>
+          <LinkNewPage>True</LinkNewPage>
+        </Header>
+        <Footer>
+          <LinkNewPage>True</LinkNewPage>
+        </Footer>
+        <Stylesheet>
+          <ContourReportCaptionStyle/>
+          <WebStyle/>
+          <GridCaptionStyle/>
+          <GridStyle/>
+          <FactFilterStyle/>
+          <DimStylesheet/>
+          <DimAxisStylesheet/>
+          <FactStylesheet/>
+          <FactHeaderStyle/>
+          <ChartFactStyle/>
+          <ChartFactMarksStyle/>
+          <ChartTargetStyle/>
+          <BorderStyle/>
+          <ChartPropStyle/>
+          <ChartSubcaptionStyle/>
+          <LegendStyle/>
+          <AxisXStyle/>
+          <AxisYStyle/>
+          <ChartAxisLineXStyle/>
+          <ChartAxisLineYStyle/>
+          <ChartScaleStyle/>
+          <ChartScaleYStyle/>
+          <ChartMarksStyle/>
+          <ChartMarksStylesheet/>
+          <ChartToolTipStyle/>
+          <PlotStyle/>
+          <ChartHorGridStyle/>
+          <ChartVertGridStyle/>
+          <ChartPyramidStyle/>
+          <ChartGaugeStyle/>
+          <ColumnStyle/>
+          <AreaStyle/>
+          <BostonMatrixStyle/>
+          <ChartTextSegmentStyle/>
+          <ChartPieStyle/>
+          <ChartTagCloudStyle/>
+          <CorrelationStyle/>
+          <BubbleStyle>
+            <Scale>100</Scale>
+          </BubbleStyle>
+          <TimeLineStyle/>
+          <CandleStyle/>
+          <SankeyDiagram/>
+          <ImageColumnStyle/>
+          <CardStyle/>
+          <ChartTreemapStylesheet/>
+        </Stylesheet>
+        <Filters>
+          <DimFilter code="Вид экономической деятельности" state="On">
+            <SliceCode>slice1</SliceCode>
+            <Values/>
+          </DimFilter>
+          <DimFilter code="Год" state="On">
+            <SliceCode>slice1</SliceCode>
+            <Values/>
+          </DimFilter>
+        </Filters>
+        <Expands>
+          <Expand>
+            <SliceCode>slice1</SliceCode>
+            <ViewCode>view1</ViewCode>
+            <ColumnExpandd>0</ColumnExpandd>
+            <RowExpandd>0</RowExpandd>
+            <ColumnExpand>[
+    {
+        "collapse": "AA==",
+        "size": 1
+    },
+    {
+        "collapse": "AA==",
+        "size": 2
+    }
+]
+</ColumnExpand>
+            <RowExpand>[
+    {
+        "collapse": "AA==",
+        "size": 1
+    },
+    {
+        "collapse": "AA==",
+        "size": 4
+    }
+]
+</RowExpand>
+          </Expand>
+        </Expands>
+      </Cube>
+      <DashboardLayouts>
+        <Groups/>
+      </DashboardLayouts>
+      <LinkedReports>
+        <Groups/>
+      </LinkedReports>
+      <Parameters>
+        <Groups/>
+      </Parameters>
+      <Layouts>
+        <Groups/>
+      </Layouts>
+      <PageSetup>
+        <Headers>
+          <Header>title;</Header>
+          <Header>blank;</Header>
+          <Header>page_of;</Header>
+          <Header>title;</Header>
+          <Header>blank;</Header>
+          <Header>date;</Header>
+        </Headers>
+      </PageSetup>
+      <Templates>
+        <Groups/>
+      </Templates>
+      <UseProjectPrintSetting>True</UseProjectPrintSetting>
+      <PublishSiteMap>False</PublishSiteMap>
+      <QueryCode>Sheet1$10</QueryCode>
+      <Category>MOLAP</Category>
+      <FileName>Sheet1$.cube</FileName>
+      <ExportLimit>100000</ExportLimit>
+    </Report>
+    <PublishSiteMap>False</PublishSiteMap>
+  </Reports>
+  <Catalogs>
+    <Groups/>
+    <PublishSiteMap>False</PublishSiteMap>
+  </Catalogs>
+  <Scripts>
+    <Groups/>
+  </Scripts>
+  <Indicators>
+    <Groups/>
+  </Indicators>
+  <Localization unique="1">
+    <Groups/>
+    <Language caption="English" index="1" code="language1">
+      <Type>Original</Type>
+      <Language>en</Language>
+    </Language>
+  </Localization>
+  <Header>
+    <LinkNewPage>True</LinkNewPage>
+  </Header>
+  <Footer>
+    <LinkNewPage>True</LinkNewPage>
+  </Footer>
+  <Stylesheet>
+    <WebStyle/>
+    <ContourReportCaptionStyle/>
+    <GridCaptionStyle/>
+    <GridStyle/>
+    <FactFilterStyle/>
+    <DimStylesheet/>
+    <DimAxisStylesheet/>
+    <FactStylesheet/>
+    <FactHeaderStyle/>
+    <ChartFactStyle/>
+    <ChartFactMarksStyle/>
+    <ChartTargetStyle/>
+    <BorderStyle/>
+    <ChartPropStyle/>
+    <ChartSubcaptionStyle/>
+    <LegendStyle/>
+    <AxisXStyle/>
+    <AxisYStyle/>
+    <ChartAxisLineXStyle/>
+    <ChartAxisLineYStyle/>
+    <ChartScaleStyle/>
+    <ChartScaleYStyle/>
+    <ChartMarksStyle/>
+    <ChartMarksStylesheet/>
+    <ChartToolTipStyle/>
+    <PlotStyle/>
+    <ChartHorGridStyle/>
+    <ChartVertGridStyle/>
+    <ChartPyramidStyle/>
+    <ChartGaugeStyle/>
+    <ColumnStyle/>
+    <AreaStyle/>
+    <BostonMatrixStyle/>
+    <ChartTextSegmentStyle/>
+    <ChartPieStyle/>
+    <ChartTagCloudStyle/>
+    <CorrelationStyle/>
+    <BubbleStyle>
+      <Scale>100</Scale>
+    </BubbleStyle>
+    <TimeLineStyle/>
+    <CandleStyle/>
+    <SankeyDiagram/>
+    <ImageColumnStyle/>
+    <CardStyle/>
+    <ChartTreemapStylesheet/>
+  </Stylesheet>
+  <PageSetup>
+    <Headers>
+      <Header>title;</Header>
+      <Header>blank;</Header>
+      <Header>page_of;</Header>
+      <Header>title;</Header>
+      <Header>blank;</Header>
+      <Header>date;</Header>
+    </Headers>
+  </PageSetup>
+  <Groups/>
+  <UID>{c349b632-374d-4e0b-9247-5686835367aa}</UID>
+  <Generated>Contour Reporter 6.2.0.379.branch+version6_2+rev1731 Windows/x86-64 2020-02-12T16:41:31</Generated>
+  <PublishSiteMap>False</PublishSiteMap>
+  <Language>en</Language>
+</ContourBIProject>

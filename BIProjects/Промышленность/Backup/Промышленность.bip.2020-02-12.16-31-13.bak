@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContourBIProject version="2.2" caption="Промышленность" create_time="2020-02-12T15:23:05" author="Sibirskaya.EV" modify_time="2020-02-12T15:31:30" code="Промышленность">
+  <Databases unique="11">
+    <Groups/>
+    <Database caption="Dobycha_poleznykh_iskopaemykh" type="Excel" index="1" code="database1">
+      <Groups/>
+      <DataSource>Dobycha_poleznykh_iskopaemykh.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Indexy_promyshlennogo_proizvodstva" type="Excel" index="2" code="database2">
+      <Groups/>
+      <DataSource>Indexy_promyshlennogo_proizvodstva.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Osnovnye_pokazateli_po_promyshlennosti" type="Excel" index="3" code="database3">
+      <Groups/>
+      <DataSource>Osnovnye_pokazateli_po_promyshlennosti.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlennost_obem_otgruzhennykh_dannykh_2017-2019" type="Excel" index="4" code="database4">
+      <Groups/>
+      <DataSource>Promyshlennost_obem_otgruzhennykh_dannykh_2017-2019.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlennost_obem_otgruzhennykh_tovarov_2016-2018" type="Excel" index="5" code="database5">
+      <Groups/>
+      <DataSource>Promyshlennost_obem_otgruzhennykh_tovarov_2016-2018.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlennost_Tempy_rosta_promyshlennogo_proizvodstva_2015-2019" type="Excel" index="6" code="database6">
+      <Groups/>
+      <DataSource>Promyshlennost_Tempy_rosta_promyshlennogo_proizvodstva_2015-2019.xls</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlenny_vypusk_Dobyvayuschaya_promyshlennost" type="Excel" index="7" code="database7">
+      <Groups/>
+      <DataSource>Promyshlenny_vypusk_Dobyvayuschaya_promyshlennost.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlenny_vypusk_Elektroenergetika" type="Excel" index="8" code="database8">
+      <Groups/>
+      <DataSource>Promyshlenny_vypusk_Elektroenergetika.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlenny_vypusk_Obrabatyvayuschie_proizv" type="Excel" index="9" code="database9">
+      <Groups/>
+      <DataSource>Promyshlenny_vypusk_Obrabatyvayuschie_proizv.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Promyshlenny_vypusk_Vodosnabzhenie" type="Excel" index="10" code="database10">
+      <Groups/>
+      <DataSource>Promyshlenny_vypusk_Vodosnabzhenie.xls</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+    <Database caption="Zanyatye_v_promyshlennom_sektore" type="Excel" index="11" code="database11">
+      <Groups/>
+      <DataSource>Zanyatye_v_promyshlennom_sektore.xlsx</DataSource>
+      <BlankPassword>False</BlankPassword>
+      <SavePassword>False</SavePassword>
+    </Database>
+  </Databases>
+  <Transformations>
+    <Groups/>
+  </Transformations>
+  <Schemas>
+    <Groups/>
+  </Schemas>
+  <Queries>
+    <Groups/>
+  </Queries>
+  <Reports>
+    <Groups/>
+    <PublishSiteMap>False</PublishSiteMap>
+  </Reports>
+  <Catalogs>
+    <Groups/>
+    <PublishSiteMap>False</PublishSiteMap>
+  </Catalogs>
+  <Scripts>
+    <Groups/>
+  </Scripts>
+  <Indicators>
+    <Groups/>
+  </Indicators>
+  <Localization unique="1">
+    <Groups/>
+    <Language caption="English" index="1" code="language1">
+      <Type>Original</Type>
+      <Language>en</Language>
+    </Language>
+  </Localization>
+  <Header>
+    <LinkNewPage>True</LinkNewPage>
+  </Header>
+  <Footer>
+    <LinkNewPage>True</LinkNewPage>
+  </Footer>
+  <Stylesheet>
+    <WebStyle/>
+    <ContourReportCaptionStyle/>
+    <GridCaptionStyle/>
+    <GridStyle/>
+    <FactFilterStyle/>
+    <DimStylesheet/>
+    <DimAxisStylesheet/>
+    <FactStylesheet/>
+    <FactHeaderStyle/>
+    <ChartFactStyle/>
+    <ChartFactMarksStyle/>
+    <ChartTargetStyle/>
+    <BorderStyle/>
+    <ChartPropStyle/>
+    <ChartSubcaptionStyle/>
+    <LegendStyle/>
+    <AxisXStyle/>
+    <AxisYStyle/>
+    <ChartAxisLineXStyle/>
+    <ChartAxisLineYStyle/>
+    <ChartScaleStyle/>
+    <ChartScaleYStyle/>
+    <ChartMarksStyle/>
+    <ChartMarksStylesheet/>
+    <ChartToolTipStyle/>
+    <PlotStyle/>
+    <ChartHorGridStyle/>
+    <ChartVertGridStyle/>
+    <ChartPyramidStyle/>
+    <ChartGaugeStyle/>
+    <ColumnStyle/>
+    <AreaStyle/>
+    <BostonMatrixStyle/>
+    <ChartTextSegmentStyle/>
+    <ChartPieStyle/>
+    <ChartTagCloudStyle/>
+    <CorrelationStyle/>
+    <BubbleStyle>
+      <Scale>100</Scale>
+    </BubbleStyle>
+    <TimeLineStyle/>
+    <CandleStyle/>
+    <SankeyDiagram/>
+    <ImageColumnStyle/>
+    <CardStyle/>
+    <ChartTreemapStylesheet/>
+  </Stylesheet>
+  <PageSetup>
+    <Headers>
+      <Header>title;</Header>
+      <Header>blank;</Header>
+      <Header>page_of;</Header>
+      <Header>title;</Header>
+      <Header>blank;</Header>
+      <Header>date;</Header>
+    </Headers>
+  </PageSetup>
+  <Groups/>
+  <UID>{c349b632-374d-4e0b-9247-5686835367aa}</UID>
+  <Generated>Contour Reporter 6.2.0.379.branch+version6_2+rev1731 Windows/x86-64 2020-02-12T15:31:34</Generated>
+  <PublishSiteMap>False</PublishSiteMap>
+  <Language>en</Language>
+</ContourBIProject>
